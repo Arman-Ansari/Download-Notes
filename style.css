@@ -208,19 +208,19 @@ h2 {
 }
 
  .download-btn {
-    cursor: pointer;
-    /* background-image: url("images/DownloadRed.svg"); */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: transparent;
-    width: 65px;
-    height: 65px;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    position: relative;
-    top: -4vw;
-    right: -29vw;
+  cursor: pointer;
+  /* background-image: url("images/DownloadRed.svg"); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  width: 65px;
+  height: 65px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  position: relative;
+  top: -4vw;
+  right: -29vw;
 }
 #content1 .download-btn{
     background-image: url("images/DownloadIcon.svg");
@@ -419,4 +419,9 @@ h2 {
         margin: 20px 0 0 0;
         width: 100px;
     }
+
+     .download-btn {
+      top: -44px;
+      right: -250px;
+   }
 }
